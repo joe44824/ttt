@@ -1,6 +1,8 @@
 
-
-
+## Mac OS
+```
+gcc $( pkg-config --cflags gtk+-3.0 ) -o game gui.c $( pkg-config --libs gtk+-3.0 )
+```
 
 ## Command for compiling using GCC (GTK+ 3.0 Libraries must be installed first):
 ```
